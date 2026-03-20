@@ -116,5 +116,5 @@ jobs:
           username: ${{ secrets.EMAIL_ORIGEM }}
           password: ${{ secrets.SENHA_EMAIL }}
           subject: Falha no Pipeline - ${{ github.repository }}
-          to: ${{ secrets.EMAIL_DESTINO }}
-          from: ${{ secrets.EMAIL_ORIGEM }}
+          to: ${{ secrets.EMAIL_ORIGEM }}
+          from: ${{ secrets.EMAIL_DESTINO }}
