@@ -113,8 +113,8 @@ jobs:
           server_address: smtp.gmail.com
           server_port: 465
           secure: true
-          username: ${{ secrets.EMAIL_ORIGEM }}
+          username: ${{ secrets.EMAIL_ORIGIN }}
           password: ${{ secrets.SENHA_EMAIL }}
           subject: Falha no Pipeline - ${{ github.repository }}
-          to: ${{ secrets.EMAIL_ORIGEM }}
+          to: ${{ secrets.EMAIL_ORIGIN }}
           from: ${{ secrets.EMAIL_DESTINO }}
