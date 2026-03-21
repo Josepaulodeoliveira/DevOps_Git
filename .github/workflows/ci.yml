@@ -114,7 +114,7 @@ jobs:
           server_port: 465
           secure: true
           username: ${{ secrets.EMAIL_ORIGIN }}
-          password: ${{ secrets.SENHA_EMAIL }}
+          password: ${{ secrets.EMAIL_SENHA }}
           subject: Falha no Pipeline - ${{ github.repository }}
           to: ${{ secrets.EMAIL_ORIGIN }}
           from: ${{ secrets.EMAIL_DESTINO }}
